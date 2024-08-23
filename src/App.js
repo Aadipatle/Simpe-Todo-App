@@ -9,12 +9,12 @@ import Content from './Component/Content';
 const orderLists = [
   {
     id: uuidv4(),
-    title: "git",
+    title: "Laptop",
     checked: true,
   },
   {
     id: uuidv4(),
-    title: "html",
+    title: "Monitor",
     checked: false,
   },
 
@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className="app">
-      <Header title="Techshops" />
+      <Header title="Techshop" />
 
       <form className="addForm"
         onSubmit={(e) => {
