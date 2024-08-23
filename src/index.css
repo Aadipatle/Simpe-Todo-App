@@ -33,7 +33,7 @@ body {
 header {
   width: 100%;
   padding: 0 0.25em;
-  background-color: rgb(191, 205, 0);
+  background-color: rgb(0, 205, 48);
   color: rgb(240, 255, 255);
   display: flex;
   justify-content: space-between;
@@ -53,7 +53,7 @@ main {
 footer {
   width: 100%;
   padding: 0.25em;
-  background-color: rgb(191, 205, 0);
+  background-color: rgb(0, 205, 48);
   color: rgb(240, 255, 255);
   display: grid;
   place-content: center;
@@ -83,6 +83,9 @@ ul li::before {
   margin: 0;
 }
 
+ input{
+  border: 1px solid rgb(140, 140, 143);
+}
 .item input[type="checkbox"] {
   text-align: center;
   width: 2.5rem;
@@ -154,6 +157,8 @@ button {
   background-color: aliceblue;
   color: mediumblue;
   cursor: pointer;
+  border: none;
+  box-shadow: 0 0 5px gainsboro;
 }
 
 button:focus, 
